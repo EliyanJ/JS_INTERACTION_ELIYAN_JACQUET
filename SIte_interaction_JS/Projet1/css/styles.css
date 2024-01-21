@@ -1,0 +1,521 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    
+   
+
+}
+
+header{
+   
+    display: flex;
+    font-family: Itim Regular;
+    background-color: black;
+    width: 100vw;
+    height: 15vw;
+}
+
+.why{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 100vw;
+    height: 8vw;
+    font-family: Irish Grover Regular;
+}
+
+h1{
+    color: white;
+    font-size: 500%;
+    
+}
+
+h2{
+    font-size: 340%;
+}
+
+.commenceTexte{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    font-family: Itim Regular;
+    align-items: center;
+}
+
+.ct{
+    font-size: 240%;
+}
+
+.histoire{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.espace{
+    background-color: white;
+    width: 10vw;
+    height: 10vh;
+    
+}
+.video{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.argument1{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+.imageArgument{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+
+.musique{
+    display: flex;
+    flex-direction: column;
+    height: 15vw;
+    width: 100vw;
+    background-image: url(../img/kuroro.jpg);
+    background-size: cover;
+    
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+.header_txt{
+    
+    display: flex;
+    height: 100%;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.se_connecter h2{
+    font-size: 340%;
+    color: white;
+}
+
+.img_perso h2{
+    font-size: 340%;
+    color: white;
+}
+
+
+.logo{
+   width: 60%;
+   height: 50%;
+}
+
+.img_perso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 33%;
+    background-color: black;
+
+}
+
+
+
+.se_connecter{
+    display: flex;
+    width: 32%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+
+.connexion{
+    color: white;
+}
+
+.img_hunter{
+    width: 200px;
+    height: 200px;
+}
+
+.mention_legal{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte_footer{
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 20vh;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 50px;
+    font-family: Itim Regular;
+}
+
+.case_personnage{
+    padding-top: 50px;
+    width: 100vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decouvre{
+    padding-bottom: 80px;
+    font-size: 60px;
+    font-family: Itim Regular;
+}
+
+
+
+.selection_perso{
+    display: flex;
+    width: 40%;
+    height: 80%;
+  
+    
+
+}
+
+.OST{
+    padding-top: 100px;
+    padding-bottom: 85px;
+    display: flex;
+    width: 100vw;
+    height:15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.OST section{
+    font-size: 70px;
+    font-family: Itim Regular;
+}
+
+.argument1 h3{
+    font-size: 70px;
+    font-family: Itim Regular;
+}
+
+
+.imageArgument img{
+    width: 40%;
+    height: 30%;
+    image-rendering: optimizeQuality;
+    border-radius: 60px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 8px 8px 60px rgba(0, 0, 0, 0.2);
+}
+.imageArgument :hover {
+    transform: scale(1.1);
+}
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+  }
+  
+  h2 a::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border-radius: 45px;
+    background-color: white;
+    opacity: 1;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  h2 a:hover::before {
+    opacity: 0.2;
+    transform: scale(2);
+  }
+
+.protagoniste{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 13vh;
+    padding-top: 80px;
+  }
+
+  .protagoniste p{
+    font-size: 80px;
+    font-family: Itim Regular;
+  }
+
+  .capacite{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+  }
+
+  .thinking_killua{
+    display: flex;
+    justify-content: center;
+  }
+
+.img_thinking{
+    width: 30%;
+    height: 40%;
+}
+
+.caractere_inside{
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+    
+    
+
+.selection_perso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.clique_perso {
+    width: 500px;
+    height: 300px;
+    image-rendering: optimizeQuality;
+    border-radius: 60px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 8px 8px 60px rgba(0, 0, 0, 0.2);
+     /* Ajoutez une marge entre les images */
+}
+
+.clique_perso:hover {
+    transform: scale(1.1);
+    box-shadow: 12px 12px 80px rgba(0, 0, 0, 0.4);
+}
+
+.le_commencer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+}
+
+.le_commencer h3{
+    background-color: green;
+    border-radius: 15px; 
+    padding: 20px; 
+    color: yellow;
+
+
+}
+
+.le_commencer h3:hover{
+    transform: scale(1.1);
+}
+
+
+
+.imageArgument{
+    display: flex;
+    align-items: center;
+    font-family: Itim Regular;
+    font-size: 120%;
+}
+
+.centrage_histoire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Itim Regular;
+}
+
+.centrage_histoire p{
+    padding: 10px;
+}
+
+.page_connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color:beige;
+    flex-direction: column;
+    font-size: 200%;
+    font-family: Itim Regular;
+    border-radius: 50px;
+    box-shadow: 8px 8px 60px rgba(0, 0, 0, 0.2);
+
+}
+
+.contain_connexion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.page_connexion p{
+    padding: 50px;
+    font-size: 150%;
+}
+
+.Itim{
+    font-family: Itim Regular;
+    font-size: 40px;
+}
+.caractere_inside{
+    padding-top: 120px;
+    
+}
+.capacite{
+    display: flex;
+    align-items: center;
+    font-family: Itim Regular;
+}
+video{
+    border-radius: 40px;
+}
+@media only screen and (max-width: 600px) {
+   
+   
+   
+    
+    .protagoniste p{
+        font-size: 20px;
+    }
+    .argument1 h3{
+        font-size: 30px;
+
+    }
+    p{
+        font-size: 18px;
+    }
+    h2 a{
+        font-size: 15px;
+    }
+    .img_hunter{
+        display: none;
+    }
+    h3 a{
+        font-size: 20px;
+    }
+    .OST section{
+        font-size: 25px;
+    }
+    .clique_perso{
+        margin-left: 25px;
+        width: 90%;
+        height: 90%;
+    }
+    .decouvre{
+        font-size: 18px;
+    }
+    footer{
+        font-size: 100px;
+    }
+    .mention_legal{
+        padding-top: 200px;
+        font-size: 10px;
+    }
+    .logo{
+        width: 20px;
+        height: 20px;
+    }
+    .why{
+        font-size: 20%;
+    }
+    .ct{
+        font-size: 100%;
+    }
+    .Itim{
+        font-size: 30px;
+    }
+    .caractere_inside{
+        display: flex;
+        
+        flex-direction: column;
+        padding-top: 70px;
+    }
+    .page_connexion{
+        font-size: 80%;
+        width: 120%;
+    }
+    .imageArgument{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageArgument img{
+        width: 70%;
+        height: 70%;
+    }
+    .video{
+        display: flex;
+        margin-right: 30px;
+        width: 20px;
+        height: 10px;
+        
+    }
+
+    .caractere_inside{
+        padding-top: 200px;
+        padding-bottom: 120px;
+    }
+
+    .capacite{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+}
+
+
+body.dark {
+    background-color: black; /* Couleur de fond sombre */
+    color: #fff; /* Couleur de texte claire */
+}

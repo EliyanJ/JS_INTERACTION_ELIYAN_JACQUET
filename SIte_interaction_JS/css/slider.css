@@ -1,0 +1,33 @@
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+div div img{
+    width: 30%;
+    height: 30%;
+    image-rendering: optimizeQuality;
+    border-radius: 60px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 8px 8px 60px rgba(0, 0, 0, 0.2);;
+}
+
+.gon_img{
+    width: 30%;
+    height: 20%;
+    
+   
+}
+

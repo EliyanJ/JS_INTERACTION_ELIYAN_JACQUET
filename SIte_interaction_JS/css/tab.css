@@ -1,0 +1,62 @@
+/* Style des onglets */
+.tab {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #f1f1f1;
+  }
+  
+  .tab li {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #ccc;
+  }
+  
+  .tab li:last-child {
+    border-right: none;
+  }
+  
+  .tab li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .tab li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  /* Style du contenu */
+  .content {
+    display: none;
+    padding: 20px;
+    border-top: none;
+  }
+  
+  .content.active {
+    display: block;
+  }
+  
+h3{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: Itim Regular;
+}
+
+p{
+  display : flex;
+  justify-content: center;
+  font-family: Itim Regular;
+  font-size: 15px;
+}
+
+li{
+  font-family: Itim Regular;
+  font-size: 30px;
+}
+

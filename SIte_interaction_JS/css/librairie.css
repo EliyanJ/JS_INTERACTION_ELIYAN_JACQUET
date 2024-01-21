@@ -1,0 +1,104 @@
+* {
+  font-size: 16px;
+  font-family: Itim Regular;
+  margin: 0;
+}
+
+body {
+  width: 50%;
+  margin: 80px auto;
+}
+
+button {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-left: 20px;
+  width: 50%;
+  margin-bottom: 30px;
+  padding: 10px 32px;
+  border-radius: 30px;
+  background-color: green;
+  cursor: pointer;
+}
+
+form {
+  display : flex;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 50px;
+  box-shadow: 150px;
+  
+
+}
+input{
+  border-radius: 20px;
+}
+.pseudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.password{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.password2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+form > div {
+  margin: 30px 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  height: 20px;
+  width: 40%;
+}
+
+.message-error {
+  border: 1px solid rgba(212, 42, 0, 1);
+  color: rgb(212, 42, 0);
+  background-color: rgba(212, 42, 0, 0.4);
+  padding: 16px 32px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.message-success {
+  border: 1px solid rgb(81, 150, 2);
+  color: rgb(81, 150, 2);
+  background-color: rgba(113, 212, 0, 0.4);
+  padding: 16px 32px;
+  margin-bottom: 20px;
+  display: none;
+}
+.success {
+  border: 1px solid rgb(81, 150, 2);
+  background-color: rgba(113, 212, 0, 0.4);
+}
+.success {
+  border: 1px solid rgb(81, 150, 2);
+  background-color: rgba(113, 212, 0, 0.4);
+}
+
+.message-error.visible {
+  display: block;
+}
